@@ -5,6 +5,7 @@ import os
 id_length = 35
 forms = []
 blocklist_file = "blocked.txt"
+# Set to store blocked IPs in memory for quick access
 blocked_ips = set()
 def getFormFromId(id):
     for item in forms:
